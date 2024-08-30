@@ -1,0 +1,8 @@
+---
+- name: Deploy complete infrastructure
+  hosts: all
+  become: yes
+  roles:
+    - webserver
+    - database
+    - loadbalancer

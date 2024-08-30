@@ -1,0 +1,9 @@
+Project Overview
+Objective:
+Automate the deployment and management of infrastructure resources using Ansible and Python. The project will include:
+
+Ansible playbooks for setting up and configuring infrastructure components.
+A Python script to orchestrate the deployment process.
+Tools & Technologies:
+Ansible: For defining and managing infrastructure as code.
+Python: To create a management script that integrates with Ansible.

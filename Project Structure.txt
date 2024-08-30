@@ -1,0 +1,23 @@
+1. Setting Up the Project Structure
+Create a directory structure for the project:
+
+Infrastructure-as-Code/
+│
+├── ansible/
+│   ├── playbooks/
+│   │   ├── site.yml
+│   │   ├── webserver.yml
+│   │   ├── database.yml
+│   │   └── loadbalancer.yml
+│   ├── inventories/
+│   │   ├── hosts
+│   └── roles/
+│       ├── webserver/
+│       ├── database/
+│       └── loadbalancer/
+│
+├── python/
+│   ├── deploy_infrastructure.py
+│   └── requirements.txt
+│
+└── README.md

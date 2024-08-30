@@ -1,0 +1,8 @@
+[webservers]
+172.168.16.10
+
+[databases]
+172.168.16.11
+
+[loadbalancers]
+172.168.16.12
