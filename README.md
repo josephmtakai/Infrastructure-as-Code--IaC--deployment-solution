@@ -44,7 +44,7 @@ The inventory file (ansible/inventories/hosts) lists the IP addresses of the ser
 License
 This project is licensed under the MIT License.
 
-### **6. Next Steps**
+Next Steps:
 - You can extend the project by adding more roles, tasks, or even integrating with cloud platforms like AWS, Azure, or GCP.
 - Implement error handling and logging in the Python script for better debugging and monitoring.
 
