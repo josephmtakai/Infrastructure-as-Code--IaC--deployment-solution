@@ -24,14 +24,20 @@ To deploy the infrastructure, execute the following command:
 
 Copy code
 python python/deploy_infrastructure.py
-3. Customize the Infrastructure
+
+Customize the Infrastructure
 You can customize the infrastructure by editing the Ansible playbooks located in the ansible/playbooks/ directory.
 
 Ansible Playbooks:
+
 site.yml: The main playbook that includes roles for web server, database, and load balancer.
+
 webserver.yml: Configures a web server using Nginx.
+
 database.yml: Configures a MySQL database server.
+
 loadbalancer.yml: Configures a load balancer using HAProxy.
+
 Inventory File
 The inventory file (ansible/inventories/hosts) lists the IP addresses of the servers that the playbooks will target.
 
